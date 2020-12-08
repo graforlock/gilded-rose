@@ -7,3 +7,6 @@ My Comments on the exercise:
 4. There is (maybe intentional) contradiction in instructions. For example, if sell_in (concert) date passes, rendering quality zero and if quality never becomes a negative number, then the instruction to "degrade quality twice as fast" past the concert date has no effect.
 5. Regarding above, there was no mention in the instruction whether one should doubly increase the value past sell_in date so I have ignored this assumption.
 6. I have decided not to split the parts of the `gilded_rose.js` into separate modules and left it in a single file, as it was.
+7. The exercise took me a rather short time and I was trying to make it in under an hour, due to that I forgot to document clear git commit history.
+
+Maciej
