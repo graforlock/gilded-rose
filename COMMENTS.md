@@ -10,3 +10,8 @@ My Comments on the exercise:
 7. The exercise took me a rather short time and I was trying to make it in under an hour, due to that I forgot to document clear git commit history.
 
 Maciej
+
+*ADDENDUM:*
+
+In retrospection, it would be good to create model classes of each respective item type. In Typescript then, this can be nicely factored in via discriminated unions. Each class would have its own updateItem overload. It would make code less concise, however, rather than employing a command-like updateItem pattern.
+
