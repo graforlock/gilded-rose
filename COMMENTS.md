@@ -13,5 +13,5 @@ Maciej
 
 **ADDENDUM:**
 
-In retrospection, it would be good (or better) to create model classes of each respective item type. In Typescript then, this can be nicely factored in via discriminated unions. Each class would have its own updateItem overload. It would make code less concise, however, rather than employing a command-like updateItem pattern.
+In retrospection, it would be good (or better) to create model classes of each respective item type. Those would wrap existing Item class by composing it in. In Typescript then, this can be nicely factored in via discriminated unions. Each class would have its own updateItem overload. It would make code less concise, however, rather than employing a command-like updateItem pattern.
 
